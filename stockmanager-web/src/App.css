@@ -1,10 +1,58 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Navbar{
+  display: flex;
+
+}
+
+.Button{
+  padding: 20px 40px;
+  border-radius: 30px;
+}
+
+.Button-Blue{
+  color : white;
+  background-color: cornflowerblue;
+}
+
+.Cards-Container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.Item-Card{
+  background-color: darkslategray;
+  color: white;
+  box-shadow: 2px 6px 9px 0px #1a1a1a;
+  padding: 20px;
+}
+
+.Item-Card-Controls-Increase, .Item-Card-Controls-Decrease{
+  font-size: 3rem;
+  padding: 3px;
+  height: 24px;
+  width: 24px;
+}
+
+.Item-Card-Controls-Increase{
+  background-color:chartreuse;
+}
+
+.Item-Card-Controls-Decrease{
+  margin-left: 5px;
+  background-color:crimson;
 }
 
 @media (prefers-reduced-motion: no-preference) {
